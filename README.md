@@ -1,2 +1,2 @@
 # terrortown
-tona day's ttt gamemode edits
+tona days' ttt gamemode edits
