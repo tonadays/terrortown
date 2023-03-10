@@ -1,2 +1,3 @@
-# terrortown
-tona days' ttt gamemode edits
+# tonatown
+tona days' terrortown gamemode edits
+- new scoreboard logo
