@@ -1,4 +1,5 @@
 ---- English language strings
+---- Modified by Tona Days https://github.com/tonadays/tonatown
 
 local L = LANG.CreateLanguage("English")
 
@@ -540,12 +541,17 @@ Teleporting makes noise, and the
 number of uses is limited.]]
 
 -- Ammo names, shown when picked up
-L.ammo_pistol     = "9mm ammo"
 
+-- Name edit, "9mm ammo" to "Light ammo", Done on 6/1/2020, rom
+L.ammo_pistol     = "Light ammo"
+-- Name unchanged
 L.ammo_smg1       = "SMG ammo"
+-- Name unchanged
 L.ammo_buckshot   = "Shotgun ammo"
-L.ammo_357        = "Rifle ammo"
-L.ammo_alyxgun    = "Deagle ammo"
+-- Name edit, "Rifle ammo" to "High cal ammo", Done on 6/1/2020, rom
+L.ammo_357        = "High cal ammo"
+-- Name edit, "Deagle ammo" to "Heavy ammo", Done on 6/1/2020, rom
+L.ammo_alyxgun    = "Heavy ammo"
 L.ammo_ar2altfire = "Flare ammo"
 L.ammo_gravity    = "Poltergeist ammo"
 
@@ -974,8 +980,9 @@ L.aw_knf4_text  = "killed {num} people with a knife. Don't ask me how."
 L.aw_flg1_title = "To The Rescue"
 L.aw_flg1_text  = "used their flares to signal for {num} deaths."
 
+-- Gender neutral edit
 L.aw_flg2_title = "Flare Indicates Fire"
-L.aw_flg2_text  = "taught {num} men about the danger of wearing flammable clothing."
+L.aw_flg2_text  = "taught {num} people about the danger of flammable clothing."
 
 L.aw_hug1_title = "A H.U.G.E Spread"
 L.aw_hug1_text  = "was in tune with their H.U.G.E, somehow managing to make their bullets hit {num} people."
